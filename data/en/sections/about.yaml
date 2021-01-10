@@ -1,0 +1,73 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Student
+# your company information
+
+
+# your resume. this file path should be relative to you "static" directory
+#resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am an undergrad student. I am skilled with Python, SQL, Pytorch, Fastai and TensorFlow.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "clashnavid1@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/entr0-py"
+
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/NHRangon"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/navid_rangon"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/rangonnavid/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Leadership
+  percentage: 90
+  color: blue
+- name: Team Work
+  percentage: 90
+  color: yellow
+- name: Communication
+  percentage: 75
+  color: pink
+- name: Hard Working
+  percentage: 80
+  color: green
+- name: Fast Learner
+  percentage: 85
+  color: sky
+- name: Problem Solving
+  percentage: 90
+  color: orange
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"
